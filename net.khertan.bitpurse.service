@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=net.khertan.bitpurse.service
+Exec=/usr/bin/invoker --splash=/opt/bitpurse/splash.png --type=e --single-instance /opt/bitpurse/__init__.py
+
