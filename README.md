@@ -5,7 +5,7 @@ BitPurse
 **Bug Tracker :** [Bug Tracker][3]  
 **Download:** [AppsForMeego][12] - [Khertan.net][11] - [MeeGo COBS][13] - [Nokia Store][14]  
 
-A nice looking Bitcoin Client for MeeGo, SailfishOS, NemoMobile, and Harmattan. BitPurse allow you to manage your bitcoin address, view your balance, and emit transaction directly from your mobile device.
+A nice looking Bitcoin Client for SailfishOS, MeeGo, NemoMobile, and Harmattan. BitPurse allow you to manage your bitcoin address, view your balance, and emit transaction directly from your mobile device.
 
 Features
 ---------
