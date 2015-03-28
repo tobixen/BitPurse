@@ -13,10 +13,10 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 
-from PySide.QtGui import QApplication
-from PySide.QtCore import QUrl, QObject
-from PySide import QtDeclarative
-from PySide.QtOpenGL import QGLWidget, QGLFormat
+from PyQt5.QtWidgets import QApplication
+from PyQt5.QtCore import QUrl, QObject
+from PyQt5 import QtQuick
+from PyQt5.QtOpenGL import QGLWidget, QGLFormat
 from walletcontroller import WalletController
 import sys
 import os
@@ -68,7 +68,7 @@ class BitPurse(QApplication):
         self.setOrganizationDomain("khertan.net")
         self.setApplicationName("BitPurse")
 
-        self.view = QtDeclarative.QDeclarativeView()
+        self.view = QtQuick.QQuickView()
         # Are we on mer ? So don't use opengl
         # As it didn't works on all devices
         if os.path.exists('/etc/mer-release'):

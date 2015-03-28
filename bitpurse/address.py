@@ -13,7 +13,7 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 
-from PySide.QtCore import QAbstractListModel, QModelIndex
+from PyQt5.QtCore import QAbstractListModel, QModelIndex
 from utils import prettyPBitcoin
 from uuid import uuid4
 from datetime import datetime

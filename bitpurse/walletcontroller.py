@@ -13,9 +13,10 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 
-from PySide.QtCore import Slot, QObject, \
-    Signal, Property, QTimer
-from PySide.QtGui import QApplication, QClipboard
+from PyQt5.QtCore import pyqtSlot as Slot, QObject, \
+    pyqtSignal as Signal, pyqtProperty as Property, QTimer
+from PyQt5.QtGui import QClipboard
+from PyQt5.QtWidgets import QApplication
 import urllib2
 import threading
 import os.path

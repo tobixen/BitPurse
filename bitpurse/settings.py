@@ -22,7 +22,7 @@
     * Blockchain primary password
     '''
 import ConfigParser
-from PySide.QtCore import Slot, QObject, Property, Signal
+from PyQt5.QtCore import pyqtSlot as Slot, QObject, pyqtProperty as Property, pyqtSignal as Signal
 
 import os
 

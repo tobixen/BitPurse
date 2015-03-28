@@ -13,8 +13,8 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 
-from PySide.QtCore import Signal, QObject
-from PySide.QtGui import QApplication
+from PyQt5.QtCore import pyqtSignal as Signal, QObject
+from PyQt5.QtWidgets import QApplication
 import json
 from PBKDF2 import PBKDF2
 from Crypto.Cipher import AES
