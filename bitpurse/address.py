@@ -108,7 +108,9 @@ class AddressesModel(QAbstractListModel):
     def __init__(self, ):
         self._addresses = []
         QAbstractListModel.__init__(self)
-        self.setRoleNames(dict(enumerate(AddressesModel.COLUMNS)))
+
+    def roleNames(self):
+	return dict(enumerate(AddressesModel.COLUMNS))
 
     def setData(self, data):
         self.beginResetModel()
@@ -143,7 +145,9 @@ class TransactionsModel(QAbstractListModel):
     def __init__(self, ):
         self._transactions = []
         QAbstractListModel.__init__(self)
-        self.setRoleNames(dict(enumerate(TransactionsModel.COLUMNS)))
+
+    def roleNames(self):
+        return dict(enumerate(TransactionsModel.COLUMNS))
 
     def setData(self, transactions):
         self.beginResetModel()
